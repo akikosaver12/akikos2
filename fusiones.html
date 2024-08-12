@@ -41,10 +41,68 @@
 
 
     <div class="sengudo">
-        <h1>¿que es Git?</h1>
-        <p>Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un 
-            repositorio de control de versiones completo.
-             Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota con facilidad.</p>
+        <h1>¿ls ?</h1>
+        <p>Función: Lista el contenido de un directorio.
+            Sintaxis: ls [opciones] [directorio]
+            Ejemplo: ls -l (muestra información detallada de los archivos)
+            Explicación: Muestra los nombres de los archivos y directorios dentro del directorio especificado (por defecto, el directorio actual). 
+            Las opciones adicionales permiten personalizar la salida.</p>
+    </div>
+
+    <div class="sengudo">
+        <h1>¿cd directorio  ?</h1>
+        <p>Función: Cambia el directorio de trabajo actual.
+            Sintaxis: cd <ruta_al_directorio>
+            Ejemplo: cd Documentos
+            Explicación: Te mueve a un directorio diferente dentro de la estructura de archivos.
+             Si no se especifica ningún directorio, te lleva al directorio home.</p>
+    </div>
+
+    <div class="sengudo">
+        <h1>¿cd ..?</h1>
+        <p>Función: Vuelve al directorio padre.
+            Sintaxis: cd ..
+            Explicación: Te mueve un nivel hacia arriba en el árbol de directorios.</p>
+    </div>
+
+    <div class="sengudo">
+        <h1>¿pwd?</h1>
+        <p>Función: Muestra la ruta completa del directorio de trabajo actual.
+            Sintaxis: pwd
+            Explicación: Te indica en qué parte del sistema de archivos te encuentras.</p>
+    </div>
+
+    <div class="sengudo">
+        <h1>¿touch <nombre>?</h1>
+        <p>Función: Crea un archivo vacío o actualiza la fecha de modificación de un archivo existente.
+            Sintaxis: touch <nombre_del_archivo>
+            Ejemplo: touch archivo.txt
+            Explicación: Se utiliza para crear archivos de texto vacíos o para actualizar la fecha de modificación de un archivo existente.</p>
+    </div>
+
+    <div class="sengudo">
+        <h1>¿rm <nombre>?</h1>
+        <p>Función: Elimina un archivo o directorio.
+            Sintaxis: rm [opciones] <nombre_del_archivo_o_directorio>
+            Ejemplo: rm archivo.txt
+            Explicación: Elimina permanentemente el archivo o directorio especificado. ¡Ten cuidado! Esta acción no se puede deshacer fácilmente.</p>
+    </div>
+
+
+    <div class="sengudo">
+        <h1>¿cp <nombre> <directorio>?</h1>
+        <p>Función: Copia un archivo o directorio a otra ubicación.
+            Sintaxis: cp [opciones] <origen> <destino>
+            Ejemplo: cp archivo.txt Documentos
+            Explicación: Crea una copia del archivo o directorio en la ubicación de destino.</p>
+    </div>
+
+    <div class="sengudo">
+        <h1>¿mv <nombre> <directorio>?</h1>
+        <p>Función: Mueve (o renombra) un archivo o directorio.
+            Sintaxis: mv [opciones] <origen> <destino>
+            Ejemplo: mv archivo.txt Documentos
+            Explicación: Mueve el archivo o directorio a la nueva ubicación. Si el destino es un archivo existente, se sobrescribirá.</p>
     </div>
 </body>
 </html>
