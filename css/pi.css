@@ -1,0 +1,41 @@
+ul,li{
+    list-style: none;
+}
+.bara li a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    
+}
+.bara >li{
+    margin-right: -180px;
+    margin-left: 290px;
+}
+
+.bara > li{
+    float: left;
+
+}
+
+.bara li ul {
+    display: none;
+    position: relative;
+}
+
+.bara li:hover > ul {
+    display: block;
+}
+h1{
+    text-align: center;
+    position: relative;
+    margin-top: 1%;
+}
+
+.imagen2{
+    
+    position: relative;
+   
+    margin-bottom: -90px;
+    border-radius: 50%;
+
+}

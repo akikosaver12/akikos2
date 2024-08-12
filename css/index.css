@@ -1,0 +1,39 @@
+body{
+    background-color: burlywood;
+}
+
+    
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 15%;
+}
+p{
+    text-align: center; 
+    margin-top: 300px;
+}
+
+button{
+    background-color: #ffffff;
+    position: relative;
+    top: 30%;
+    left: 30%;
+    transform: translate(-80%, -150%);
+    border: none;
+    padding: 30px 30px;
+    font-size: 26px;
+    cursor: pointer;
+    border-radius: 60px;
+
+    
+}
+img{
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -170%);
+    border-radius: 50%;
+    
+}
